@@ -1,0 +1,14 @@
+setenv A 1
+setenv B 2
+setenv C 3
+printenv A
+printenv B
+printenv C
+setenv A 100
+printenv A
+setenv B hello
+printenv B
+printenv D
+setenv A
+printenv A
+quit

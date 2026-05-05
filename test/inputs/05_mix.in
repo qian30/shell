@@ -1,0 +1,31 @@
+echo hello
+echo hello | cat
+echo hello | cat | cat
+echo hello world | grep hello | cat
+echo hello world | grep world | cat
+echo a b c | grep a | grep a
+echo one two three | grep two | wc -w
+echo foo bar baz | grep -o foo | cat
+echo hello world | grep hello | grep hello | cat
+echo line one
+echo line one | cat
+echo line one | cat | cat | cat
+echo aaa bbb | grep aaa | grep aaa | cat
+echo test | grep test | grep test | grep test
+echo alpha beta | grep alpha | cat | cat
+echo hello | wc -c | cat
+echo one two | grep one | wc -w
+echo abc def | grep def | grep def | grep def
+ls / | grep bin
+ls / | grep tmp
+ls /etc | grep passwd
+ls /etc | grep shells
+cat /etc/shells | grep bin
+cat /etc/shells | wc -l
+cat /etc/shells | sort | head -3
+cat /etc/passwd | grep root | head -1
+cat /etc/passwd | wc -l
+cat /etc/passwd | grep -c root
+grep root /etc/passwd | cut -d: -f1
+grep root /etc/passwd | wc -l
+quit

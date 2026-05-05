@@ -1,0 +1,15 @@
+echo hello |1
+cat
+echo hello world |1
+grep hello
+echo a b c |2
+echo middle
+cat
+echo foo bar |2
+echo between
+grep foo
+echo one |3
+echo two
+echo three
+cat
+quit

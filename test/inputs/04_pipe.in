@@ -1,0 +1,32 @@
+echo hello
+echo hello | cat
+echo hello world
+echo hello world | cat
+echo hello world | grep hello
+echo hello world | grep world
+echo hello world | grep foo
+echo a b c | grep a
+echo a b c | grep b
+echo a b c | grep d
+echo one two three | grep two
+echo one two three | wc -w
+echo hello | wc -c
+echo aaa bbb ccc | grep bbb
+echo aaa bbb ccc | grep -v bbb
+echo hello world foo | grep -o hello
+echo line1
+echo line2
+echo line1 | cat | cat
+echo hello world | grep world | cat
+echo foo bar | grep foo | cat
+echo abc | grep abc
+echo abc | grep xyz
+echo 1 2 3 | grep 2
+echo test string | grep string
+echo test string | grep -v string
+echo apple banana | grep banana
+echo apple banana | grep -v apple
+echo hello | grep -c hello
+echo hello world | grep -c world
+echo done
+quit

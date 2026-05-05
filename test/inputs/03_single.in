@@ -1,0 +1,29 @@
+echo hello
+echo world
+echo hello world
+echo foo bar baz
+echo 1 2 3
+ls
+pwd
+echo a b c d e
+echo testing single commands
+echo    leading spaces
+echo trailing spaces   
+whoami
+hostname
+echo done with basic
+ls /tmp
+ls /bin
+echo checking paths
+ls /usr/bin
+echo almost done
+uname
+uname -a
+echo uname done
+ls /etc
+echo listing etc done
+ls /var
+echo listing var done
+echo final tests
+echo last line
+quit
